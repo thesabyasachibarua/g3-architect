@@ -71,7 +71,7 @@ header{
     margin-bottom: 2%;
 }
 
-.banner button{
+ .button1{
     background-color: #FF900E;
     border-radius: 8px;
     padding: 1.5% 4%;
@@ -81,6 +81,61 @@ header{
     color: white;
     margin-bottom: 5%;
 }
+
+/* quick-look part */
+.quick-look{
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.collage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+    gap: 24px;
+    margin: 130px 0;
+}
+.collage img{
+    /* width: 50%; */
+    width: 100%;
+    /* padding: 10%; */
+    
+}
+.col-detalis{
+    width: 50%;
+    margin: 6%;
+}
+#s1{
+    color: #727272;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+#s2{
+    font-size: 1.6em;
+    font-weight: 700;
+}
+#s3{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.quick-look p{
+     font-size: 0.8em;
+    font-weight: 400;
+    color: #727272;
+    /* margin: 2% 17%; */
+    margin-bottom: 5%;
+}
+.quick-look button{
+    padding: 3% 7%;
+}
+
+
+
+
 
 @media screen and (max-width:576px) {
     .navbar{
