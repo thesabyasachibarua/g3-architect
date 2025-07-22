@@ -88,6 +88,8 @@ header{
     max-width: 80%;
     margin: 0 auto;
     align-items: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 .collage{
@@ -95,7 +97,6 @@ header{
     grid-template-columns: repeat(2,1fr);
     width: 50%;
     gap: 24px;
-    margin: 130px 0;
 }
 .collage img{
     /* width: 50%; */
@@ -129,7 +130,7 @@ header{
     /* margin: 2% 17%; */
     margin-bottom: 5%;
 }
-.quick-look button{
+.col-detalis button{
     padding: 3% 7%;
 }
 
@@ -149,5 +150,15 @@ header{
         margin: 5% 0 11% 0;
         padding: 2.7% 4%;
     }
+    .quick-look{
+        flex-direction: column;
+    }
+    .collage{
+        width: 100%
+    }
+    .col-detalis{
+        width: 100%;
+    }
+
 
 }
