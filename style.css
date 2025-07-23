@@ -164,11 +164,12 @@ header{
 }
 
 .written{
-    padding: 20px;
+    padding: 20px 0 20px 20px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     margin-bottom: 20px;
     /* width: 80%; */
+    width: 90%;
 }
 .written h4{
     margin: 0;
@@ -184,13 +185,19 @@ header{
 .enjoy-pic button{
     font-weight: 700;
     font-size: 2.3em;
-    padding: 0;
+    /* padding: 0; */
+    padding: 20px 30px;
+    margin-top: -80px;
+    margin-left: -80px;
 }
 #sa1{
     margin: 0;
+    font-size: 1.2em;
+    font-weight: 700;
 }
 #sa2{
-   
+   font-weight: 50;
+   font-size: 0.5em;
 }
 
 
@@ -223,5 +230,21 @@ header{
         width: 100%;
     }
 
+    .third-section{
+        flex-direction: column;
+    }
+    .enjoy-written{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .written{
+        width: 95%;
+        padding: 20px 0 20px 15px;
+    }
+    .enjoy-pic button{
+        margin-top: -70px;
+        margin-left: -30px;
+        /* padding: 10px 20px; */
+    }
 
 }
